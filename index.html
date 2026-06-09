@@ -9,11 +9,19 @@
 <meta name="robots" content="index, follow">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://ataylus.github.io/">
+<meta property="og:url" content="https://jainansh.me/">
 <meta property="og:title" content="Ansh Jain — Engineer · Researcher · Debater">
 <meta property="og:description" content="B.Tech ECE student at PES University, Bengaluru. Autonomous drone docking, protein fitness prediction, swarm robotics. Paid BP debate adjudicator (IIT Madras, Oxford Schools). TEDxPESU Clubhead. IEEE RAS Secretary.">
 <meta property="og:site_name" content="Ansh Jain">
-<link rel="canonical" href="https://ataylus.github.io/">
+<meta property="og:image" content="https://jainansh.me/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ansh Jain — Engineer, Researcher, Debater. PES University, Bengaluru.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ansh Jain — Engineer · Researcher · Debater">
+<meta name="twitter:description" content="B.Tech ECE at PES University. Drone docking, protein fitness prediction, quantum transport. Paid BP debate adjudicator.">
+<meta name="twitter:image" content="https://jainansh.me/og-image.png">
+<link rel="canonical" href="https://jainansh.me/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=JetBrains+Mono:wght@300;400;500;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -1945,6 +1953,11 @@ section {
 [data-theme="light"] .orbital-domain.c3 { color: #7A2818; opacity: 0.65; font-weight: 500; }
 [data-theme="light"] .orbital-domain.c-dim { opacity: 0.40; }
 
+/* In light mode, the contour depth-chart IS the background —
+   hide the dark-mode orbital rings and static domain spans */
+[data-theme="light"] .orbital-domain { display: none; }
+[data-theme="light"] .orbital-rings { display: none; }
+
 /* Section backgrounds: warm ambient light */
 [data-theme="light"] #islands::before {
   background: radial-gradient(ellipse 70% 50% at 50% 0%, rgba(212,168,67,0.06) 0%, transparent 60%);
@@ -2348,9 +2361,17 @@ section {
         <div class="bento-desc">Parallel drone docking · Isaac Sim + PX4 · 95% sim success rate target · Intel RealSense</div>
       </div>
 
+      <div class="bento-card amber c-5 r-2">
+        <span class="bento-icon">Quantum</span>
+        <span class="bento-num">03</span>
+        <span class="bento-tag">Standout</span>
+        <div class="bento-title">Non-Hermitian Quantum Transport</div>
+        <div class="bento-desc">Triple quantum dot ring · 4 novel contributions · First EP encirclement shown for electronic transport · Publishable</div>
+      </div>
+
       <div class="bento-card rose c-3 r-2">
         <span class="bento-icon">ML</span>
-        <span class="bento-num">03</span>
+        <span class="bento-num">04</span>
         <span class="bento-tag">Course Project</span>
         <div class="bento-title">GestureIQ</div>
         <div class="bento-desc">sEMG gesture classification · 92.6% accuracy · Prosthetic control</div>
@@ -2359,7 +2380,7 @@ section {
       <!-- Row 2 continues -->
       <div class="bento-card amber c-3 r-2">
         <span class="bento-icon">Adjudication</span>
-        <span class="bento-num">04</span>
+        <span class="bento-num">05</span>
         <span class="bento-tag">Paid IA</span>
         <div class="bento-title">Debate Adjudicator</div>
         <div class="bento-desc">IIT Madras · Oxford Schools · NLUO · NLSIU · NALSAR (33 rooms)</div>
@@ -2367,7 +2388,7 @@ section {
 
       <div class="bento-card teal c-3 r-2">
         <span class="bento-icon">Events</span>
-        <span class="bento-num">05</span>
+        <span class="bento-num">06</span>
         <span class="bento-tag">Clubhead</span>
         <div class="bento-title">TEDxPESU</div>
         <div class="bento-desc">Clubhead · 2 events produced · 200+ attendees · Speakers from IISc, L&amp;T, Forbes India</div>
@@ -2376,7 +2397,7 @@ section {
       <!-- Row 3 -->
       <div class="bento-card rose c-3 r-2">
         <span class="bento-icon">Robotics</span>
-        <span class="bento-num">06</span>
+        <span class="bento-num">07</span>
         <span class="bento-tag">Intern</span>
         <div class="bento-title">Swarm Robotics</div>
         <div class="bento-desc">IEEE RAS internship · ROS 2 + Gazebo · Multi-bot waste collection</div>
@@ -2384,7 +2405,7 @@ section {
 
       <div class="bento-card amber c-3 r-2">
         <span class="bento-icon">Leadership</span>
-        <span class="bento-num">07</span>
+        <span class="bento-num">08</span>
         <span class="bento-tag">Clubhead</span>
         <div class="bento-title">IEEE RAS Secretary</div>
         <div class="bento-desc">100+ members · ReRO Hackathon · International reach · RoboFest 4.0 co-head</div>
@@ -2392,7 +2413,7 @@ section {
 
       <div class="bento-card teal c-3 r-2">
         <span class="bento-icon">Media</span>
-        <span class="bento-num">08</span>
+        <span class="bento-num">09</span>
         <span class="bento-tag">Clubhead</span>
         <div class="bento-title">MINERVA Media Club</div>
         <div class="bento-desc">Content strategy · Multimedia production · Entire JMC dept. works with the club</div>
@@ -2400,7 +2421,7 @@ section {
 
       <div class="bento-card rose c-3 r-2">
         <span class="bento-icon">Teaching</span>
-        <span class="bento-num">09</span>
+        <span class="bento-num">10</span>
         <span class="bento-tag">TA</span>
         <div class="bento-title">Teaching Assistant</div>
         <div class="bento-desc">Entrepreneurship course · 2nd year university-wide · Thousands of students · Set final exam</div>
@@ -2409,21 +2430,21 @@ section {
       <!-- Row 4 -->
       <div class="bento-card amber c-4 r-2">
         <span class="bento-icon">Civic Tech</span>
-        <span class="bento-num">10</span>
+        <span class="bento-num">11</span>
         <div class="bento-title">Bengaluru Flood Risk Model</div>
         <div class="bento-desc">Geospatial ML + weather prediction · Identifies flood risk zones by location · Hackathon project</div>
       </div>
 
       <div class="bento-card teal c-4 r-2">
         <span class="bento-icon">Embedded</span>
-        <span class="bento-num">11</span>
+        <span class="bento-num">12</span>
         <div class="bento-title">REN-CONSOLE</div>
         <div class="bento-desc">Arduino R4 · Pong + Snake · Gesture-controlled via ultrasonic sensors · WiFi scoreboard server</div>
       </div>
 
       <div class="bento-card rose c-4 r-2">
         <span class="bento-icon">Equity</span>
-        <span class="bento-num">12</span>
+        <span class="bento-num">13</span>
         <div class="bento-title">Equity Framework</div>
         <div class="bento-desc">Drafted PES Debate Society equity framework from global circuit research · Panel member since 2025</div>
       </div>
@@ -2456,29 +2477,42 @@ section {
           <div class="project-tab-name">Aerial Docking<br><span style="color: var(--text3); font-weight: 400;">Drone Payload Transfer</span></div>
           <span class="project-tab-badge">⭐ Lead</span>
         </div>
-        <div class="project-tab" onclick="switchProject('gestureiq')">
+        <div class="project-tab" onclick="switchProject('quantum')">
           <div>
             <div class="project-tab-num">03</div>
+          </div>
+          <div class="project-tab-name">Non-Hermitian Transport<br><span style="color: var(--text3); font-weight: 400;">Quantum Transport &amp; Logic</span></div>
+          <span class="project-tab-badge">⭐ Solo</span>
+        </div>
+        <div class="project-tab" onclick="switchProject('gestureiq')">
+          <div>
+            <div class="project-tab-num">04</div>
           </div>
           <div class="project-tab-name">GestureIQ<br><span style="color: var(--text3); font-weight: 400;">sEMG Classification</span></div>
         </div>
         <div class="project-tab" onclick="switchProject('flood')">
           <div>
-            <div class="project-tab-num">04</div>
+            <div class="project-tab-num">05</div>
           </div>
           <div class="project-tab-name">Flood Risk Model<br><span style="color: var(--text3); font-weight: 400;">Bengaluru Geospatial ML</span></div>
         </div>
         <div class="project-tab" onclick="switchProject('renconsole')">
           <div>
-            <div class="project-tab-num">05</div>
+            <div class="project-tab-num">06</div>
           </div>
           <div class="project-tab-name">REN-CONSOLE<br><span style="color: var(--text3); font-weight: 400;">Arduino Gesture Games</span></div>
         </div>
         <div class="project-tab" onclick="switchProject('swarm')">
           <div>
-            <div class="project-tab-num">06</div>
+            <div class="project-tab-num">07</div>
           </div>
           <div class="project-tab-name">Swarm Robotics<br><span style="color: var(--text3); font-weight: 400;">ROS 2 Internship</span></div>
+        </div>
+        <div class="project-tab" onclick="switchProject('quantum')">
+          <div>
+            <div class="project-tab-num">07</div>
+          </div>
+          <div class="project-tab-name">Non-Hermitian Transport<br><span style="color: var(--text3); font-weight: 400;">Quantum Transport &amp; Logic</span></div>
         </div>
       </div>
 
@@ -2618,6 +2652,28 @@ section {
           </div>
         </div>
 
+        <!-- Quantum -->
+        <div class="project-pane" id="pane-quantum">
+          <div class="project-label">Quantum Physics · Mesoscopic Transport · Publishable</div>
+          <div class="project-title">Non-Hermitian Quantum Transport in Triple Quantum Dots</div>
+          <p class="project-desc">A semester-long research project on time-domain chiral current in a PT-symmetric triple quantum dot ring. Four deliverables: literature survey, numerical reproduction, analytical synthesis, and a solo End Semester Assessment with 12 computational tasks. I built independent verification suites that caught a real sign-convention bug in the reference work.</p>
+          <div class="project-insight">
+            <strong>Why it matters:</strong> I demonstrated dynamical exceptional-point encirclement with direction-dependent mode switching (chirality ratio close to 1.0), previously shown only in photonics. To my knowledge this is the first demonstration for mesoscopic electronic transport, which makes it genuinely publishable.
+          </div>
+          <div style="margin-bottom: 24px;">
+            <div class="project-metric"><span class="metric-val">4</span><span class="metric-label">Novel contributions</span></div>
+            <div class="project-metric"><span class="metric-val">12</span><span class="metric-label">Computational tasks</span></div>
+            <div class="project-metric"><span class="metric-val">17/18</span><span class="metric-label">Verification checks passed</span></div>
+          </div>
+          <div class="tech-stack">
+            <span class="tech-pill">Python</span>
+            <span class="tech-pill">NumPy</span>
+            <span class="tech-pill">SciPy</span>
+            <span class="tech-pill">LaTeX</span>
+            <span class="tech-pill">IEEEtran</span>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -2639,7 +2695,7 @@ section {
 
       <div class="exp-card amber reveal reveal-delay-2">
         <div class="exp-meta">
-          <div class="exp-date">Jan 2026<br>Present</div>
+          <div class="exp-date">Jan 2026<br>May 2026</div>
           <div class="exp-org">CIE · PES University</div>
           <div class="exp-type">Teaching Assistant</div>
         </div>
@@ -3080,8 +3136,8 @@ section {
           <div class="edu-item">
             <div class="edu-year">2023. 2027 (Expected)</div>
             <div class="edu-institution">PES University</div>
-            <div class="edu-degree">B.Tech. ECE + CS Minor · CGPA 7.55</div>
-            <p class="edu-desc">Electronics &amp; Communication Engineering with Computer Science minor. Merit scholarship (CGPA above 7.75) in Semesters 1, 3, and 5. Current high: Sem 5 at 8.54. Sem 6 results pending.</p>
+            <div class="edu-degree">B.Tech. ECE + CS Minor · CGPA 7.71</div>
+            <p class="edu-desc">Electronics &amp; Communication Engineering with Computer Science minor. Merit scholarship (SGPA above 7.75) in Semesters 1, 3, 5, and 6. Sem 5: 8.54 (highest). Sem 6: 8.50. Back-to-back semesters above 8.5.</p>
             <div class="gpa-bar-wrap">
               <div class="gpa-bars" id="gpa-bars">
                 <div class="gpa-bar filled" style="height: 21px;" title="Sem 1"></div>
@@ -3089,8 +3145,9 @@ section {
                 <div class="gpa-bar filled" style="height: 19px;" title="Sem 3"></div>
                 <div class="gpa-bar filled" style="height: 17px;" title="Sem 4"></div>
                 <div class="gpa-bar filled" style="height: 28px;" title="Sem 5: 8.54 (highest)"></div>
+                <div class="gpa-bar filled" style="height: 27px;" title="Sem 6: 8.50"></div>
               </div>
-              <span class="gpa-label">Sem 1-5 &middot; Sem 5 = 8.54</span>
+              <span class="gpa-label">Sem 1-6 &middot; 8.54 then 8.50</span>
             </div>
           </div>
 
@@ -3104,7 +3161,7 @@ section {
           <div class="edu-item">
             <div class="edu-year">Pre-2023</div>
             <div class="edu-institution">Ryan International School</div>
-            <div class="edu-degree">Class 10: 98% · Class 12: 85.5% · CBSE</div>
+            <div class="edu-degree">Class 10: 97% (ICSE) · Class 12: 85.5% (CBSE)</div>
             <p class="edu-desc">Mathematics 100/100. Computer Applications 100/100. Gold Medal, Brain-O-Brain Nationals (Abacus).</p>
           </div>
         </div>
@@ -3116,11 +3173,11 @@ section {
         <div style="display: grid; gap: 2px;">
           <div style="background: var(--bg2); border: 1px solid var(--border); padding: 24px; transition: border-color 0.25s;" onmouseenter="this.style.borderColor='var(--amber)'" onmouseleave="this.style.borderColor='var(--border)'">
             <p style="font-family: var(--font-mono); font-size: 10px; color: var(--amber); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 8px;">Class 10</p>
-            <p style="font-size: 14px; color: var(--text2); line-height: 1.7;">98% overall. Mathematics 100/100. Computer Applications 100/100. The mathematical ability is not the constraint. never was.</p>
+            <p style="font-size: 14px; color: var(--text2); line-height: 1.7;">97% overall. Mathematics 100/100. Computer Applications 100/100. Completed the full Abacus programme. Gold Medal at Brain-O-Brain Nationals.</p>
           </div>
           <div style="background: var(--bg2); border: 1px solid var(--border); padding: 24px; transition: border-color 0.25s;" onmouseenter="this.style.borderColor='var(--teal)'" onmouseleave="this.style.borderColor='var(--border)'">
             <p style="font-family: var(--font-mono); font-size: 10px; color: var(--teal); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 8px;">GPA Trajectory</p>
-            <p style="font-size: 14px; color: var(--text2); line-height: 1.7;">7.55 across 5 semesters. Sem 5 hit 8.54, the highest so far. Sem 6 results pending.</p>
+            <p style="font-size: 14px; color: var(--text2); line-height: 1.7;">7.71 across 6 semesters. Last two semesters: 8.54 and 8.50, both above 8.5. Upward trajectory since Sem 4.</p>
           </div>
           <div style="background: var(--bg2); border: 1px solid var(--border); padding: 24px; transition: border-color 0.25s;" onmouseenter="this.style.borderColor='var(--rose)'" onmouseleave="this.style.borderColor='var(--border)'">
             <p style="font-family: var(--font-mono); font-size: 10px; color: var(--rose); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 8px;">Brain-O-Brain Nationals</p>
@@ -3367,7 +3424,7 @@ function switchProject(id) {
   document.querySelectorAll('.project-pane').forEach(p => p.classList.remove('active'));
 
   const tabs = document.querySelectorAll('.project-tab');
-  const projects = ['fitpredict', 'capstone', 'gestureiq', 'flood', 'renconsole', 'swarm'];
+  const projects = ['fitpredict', 'capstone', 'quantum', 'gestureiq', 'flood', 'renconsole', 'swarm'];
   const idx = projects.indexOf(id);
   if (tabs[idx]) tabs[idx].classList.add('active');
 
@@ -3393,114 +3450,130 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// ---- LIGHT MODE CANVAS — top-down ocean, ripples from above ----
+// ---- LIGHT MODE CANVAS — topographic depth chart with charted domains ----
 (function() {
   const canvas = document.getElementById('light-canvas');
   if (!canvas) return;
   const ctx = canvas.getContext('2d');
-  let W, H, sources = [];
+  let W, H, lastTime = 0;
+
+  // Domains become charted "soundings" placed on the depth contours.
+  // angle = position around the chart, ring = which contour it sits on.
+  const domains = [
+    { w: 'Protein Prediction', ang: -2.7, ring: 9,  col: '#5A4010' },
+    { w: 'Drone Docking',      ang: -2.0, ring: 12, col: '#1A5050' },
+    { w: 'Quantum Transport',  ang: -1.15,ring: 11, col: '#6A2818' },
+    { w: 'IIT Madras',         ang: -0.5, ring: 13, col: '#5A4010' },
+    { w: 'Oxford Schools',     ang:  0.1, ring: 10, col: '#1A5050' },
+    { w: 'TEDxPESU',           ang:  0.7, ring: 12, col: '#6A2818' },
+    { w: 'IEEE RAS',           ang:  1.25,ring: 9,  col: '#5A4010' },
+    { w: 'MINERVA',            ang:  1.9, ring: 11, col: '#1A5050' },
+    { w: 'Swarm Robotics',     ang:  2.5, ring: 13, col: '#6A2818' },
+    { w: 'sEMG · Prosthetics', ang:  3.0, ring: 10, col: '#5A4010' },
+    { w: 'Teaching',           ang: -3.05,ring: 12, col: '#1A5050' },
+    { w: 'Flood Risk ML',      ang: -2.35,ring: 14, col: '#6A2818' },
+    { w: 'NALSAR',             ang:  0.4, ring: 14, col: '#5A4010' },
+    { w: 'Arduino',            ang:  2.2, ring: 14, col: '#1A5050' },
+    { w: 'Equity Panel',       ang:  1.55,ring: 14, col: '#6A2818' },
+    { w: 'B.Tech ECE',         ang: -0.95,ring: 9,  col: '#1A5050' },
+  ];
+
+  const RING_GAP = 26, RING_BASE = 30, SQUASH = 1.32; // horizontal stretch
 
   function resize() {
     W = canvas.width = window.innerWidth;
     H = canvas.height = window.innerHeight;
-    initSources();
   }
 
-  // Ripple sources — scattered across the canvas like rain drops on still water
-  function initSources() {
-    sources = [];
-    const count = Math.floor((W * H) / 80000) + 6;
-    for (let i = 0; i < count; i++) {
-      sources.push({
-        x: Math.random() * W,
-        y: Math.random() * H,
-        rings: [],
-        interval: 2500 + Math.random() * 4000, // ms between new rings
-        lastRing: Math.random() * -4000,
-      });
-    }
+  // Radius of a contour ring index, including the slow breathing offset
+  function ringRadius(i, t, breathe) {
+    return RING_BASE + i * RING_GAP + breathe * (i / 16);
   }
 
-  let lastTime = 0;
+  // Wobble applied at a given angle on a given ring (keeps labels on the line)
+  function wobble(ang, i, t) {
+    return Math.sin(ang * 3 + i * 0.6 + t * 0.5) * 6 + Math.sin(ang * 5 - t * 0.3) * 3;
+  }
+
   function draw(now) {
     if (document.documentElement.getAttribute('data-theme') !== 'light') {
       lastTime = now;
       requestAnimationFrame(draw);
       return;
     }
-
-    // Clamp dt — prevents catchup burst when tab is hidden/backgrounded
-    const dt = Math.min(now - lastTime, 100);
     lastTime = now;
-
-    // Skip rendering if tab is hidden
-    if (document.hidden) {
-      requestAnimationFrame(draw);
-      return;
-    }
+    if (document.hidden) { requestAnimationFrame(draw); return; }
 
     ctx.clearRect(0, 0, W, H);
 
-    // Very subtle warm water background tint
-    const bgGrad = ctx.createRadialGradient(W*0.5, H*0.4, 0, W*0.5, H*0.5, Math.max(W,H)*0.8);
-    bgGrad.addColorStop(0,   'rgba(95, 150, 145, 0.025)');
-    bgGrad.addColorStop(0.5, 'rgba(70, 120, 115, 0.015)');
-    bgGrad.addColorStop(1,   'rgba(50,  90,  88, 0.008)');
-    ctx.fillStyle = bgGrad;
-    ctx.fillRect(0, 0, W, H);
+    const cx = W * 0.5, cy = H * 0.5;
+    const t = now * 0.001;
+    const breathe = Math.sin(t * 0.4) * 12;
 
-    sources.forEach(src => {
-      // Spawn new ring on interval
-      src.lastRing += dt;
-      if (src.lastRing >= src.interval) {
-        src.lastRing = 0;
-        src.rings.push({ r: 0, maxR: 120 + Math.random() * 160, alpha: 0.18, speed: 0.4 + Math.random() * 0.3 });
+    // --- Contour lines (fill the whole viewport) ---
+    const maxRing = Math.ceil(Math.max(W, H) / RING_GAP) + 2;
+    for (let i = 0; i < maxRing; i++) {
+      const r = ringRadius(i, t, breathe);
+      ctx.beginPath();
+      for (let a = 0; a <= Math.PI * 2 + 0.16; a += 0.16) {
+        const rr = r + wobble(a, i, t);
+        const x = cx + Math.cos(a) * rr * SQUASH;
+        const y = cy + Math.sin(a) * rr;
+        a === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
       }
+      ctx.closePath();
+      // brighter near a few "index contours", fainter elsewhere
+      const isIndex = i % 4 === 0;
+      ctx.strokeStyle = `rgba(139,105,40,${(isIndex ? 0.13 : 0.07) - i * 0.0016})`;
+      ctx.lineWidth = isIndex ? 1.1 : 0.8;
+      ctx.stroke();
+    }
 
-      // Draw and age rings
-      src.rings = src.rings.filter(ring => {
-        ring.r += ring.speed * (dt / 16);
-        const progress = ring.r / ring.maxR;
-        const alpha = ring.alpha * (1 - progress) * (1 - progress);
+    // --- Charted domain labels sitting on contour lines ---
+    domains.forEach(d => {
+      const r = ringRadius(d.ring, t, breathe) + wobble(d.ang, d.ring, t);
+      const x = cx + Math.cos(d.ang) * r * SQUASH;
+      const y = cy + Math.sin(d.ang) * r;
 
-        if (alpha < 0.002) return false;
+      // fade if it drifts behind the name block in the centre
+      const dx = Math.abs(x - cx) / (W * 0.5);
+      const dy = Math.abs(y - cy) / (H * 0.5);
+      const centreFade = (dx < 0.36 && dy < 0.24) ? Math.max(dx / 0.36, dy / 0.24) : 1;
+      if (centreFade < 0.05) return;
 
-        // Elongated ellipse (top-down water has slight perspective)
-        ctx.save();
-        ctx.translate(src.x, src.y);
-        ctx.scale(1, 0.45); // flatten vertically for top-down look
+      const pulse = 0.62 + 0.18 * Math.sin(t * 0.5 + d.ring);
+      ctx.save();
+      ctx.globalAlpha = pulse * centreFade;
 
-        ctx.beginPath();
-        ctx.arc(0, 0, ring.r, 0, Math.PI * 2);
-        ctx.strokeStyle = `rgba(80, 140, 130, ${alpha})`;
-        ctx.lineWidth = 1.2;
-        ctx.stroke();
+      // little sounding tick on the contour
+      ctx.beginPath();
+      ctx.arc(x, y, 1.6, 0, Math.PI * 2);
+      ctx.fillStyle = d.col;
+      ctx.fill();
 
-        // Outer softer echo
-        ctx.beginPath();
-        ctx.arc(0, 0, ring.r * 1.04, 0, Math.PI * 2);
-        ctx.strokeStyle = `rgba(120, 170, 160, ${alpha * 0.35})`;
-        ctx.lineWidth = 0.6;
-        ctx.stroke();
-
-        ctx.restore();
-        return true;
-      });
+      // label, offset slightly off the line
+      ctx.font = `10px 'JetBrains Mono', monospace`;
+      ctx.letterSpacing = '0.1em';
+      ctx.fillStyle = d.col;
+      ctx.textAlign = Math.cos(d.ang) >= 0 ? 'left' : 'right';
+      ctx.textBaseline = 'middle';
+      const ox = Math.cos(d.ang) >= 0 ? 8 : -8;
+      ctx.fillText(d.w.toUpperCase(), x + ox, y);
+      ctx.restore();
     });
 
     requestAnimationFrame(draw);
   }
 
   window.addEventListener('resize', resize);
-  // Reset timer when tab regains focus to prevent catchup burst
   document.addEventListener('visibilitychange', () => { lastTime = performance.now(); });
   resize();
   requestAnimationFrame(draw);
 
-  const observer = new MutationObserver(() => {
+  const obs = new MutationObserver(() => {
     if (document.documentElement.getAttribute('data-theme') === 'light') resize();
   });
-  observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+  obs.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
 })();
 
 // ---- KEYBOARD NAVIGATION ----
