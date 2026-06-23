@@ -2548,20 +2548,20 @@ section {
           <div class="project-title">premise: Protein Fitness Predictor</div>
           <p class="project-desc">A diagnostic study of positional memorization in supervised protein fitness predictors, with a validated remedy replicated across two unrelated proteins. Built with PyTorch, HuggingFace's ESM-2 650M foundation model, and BioPython. Private; under review for publication.</p>
           <div class="project-insight">
-            <strong>Key finding:</strong> Mean-pool ESM-2 embeddings cause supervised models to memorize position-fitness mappings from training labels. Per-residue embedding at the mutation site eliminates this without sacrificing accuracy. Switching to per-residue embedding jumps Spearman ρ from 0.038 to 0.271 on MK01_HUMAN.
+            <strong>Key finding:</strong> Mean-pool ESM-2 embeddings cause supervised models to memorize position-fitness mappings from training labels. Per-residue embedding at the mutation site reduces this without sacrificing accuracy. On positional-extrapolation splits, it lifts Spearman ρ from 0.108 to 0.266 on MK01_HUMAN (+0.158, p = 0.010), replicated on BLAT_ECOLX.
           </div>
           <div style="margin-bottom: 24px;">
             <div class="project-metric">
-              <span class="metric-val">0.758</span>
+              <span class="metric-val">0.765</span>
               <span class="metric-label">Spearman ρ (BLAT)</span>
             </div>
             <div class="project-metric">
-              <span class="metric-val">0.271</span>
-              <span class="metric-val" style="font-size: 14px; color: var(--teal);">↑ from 0.038</span>
+              <span class="metric-val">0.266</span>
+              <span class="metric-val" style="font-size: 14px; color: var(--teal);">↑ from 0.108</span>
               <span class="metric-label">Spearman ρ (MK01)</span>
             </div>
             <div class="project-metric">
-              <span class="metric-val">11.6K</span>
+              <span class="metric-val">11.8K</span>
               <span class="metric-label">Protein variants tested</span>
             </div>
           </div>
