@@ -905,6 +905,22 @@ section {
 
 .tech-pill:hover { border-color: var(--amber); color: var(--amber); }
 
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--amber);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border2);
+  padding-bottom: 3px;
+  transition: all 0.2s;
+}
+.project-link:hover { color: var(--amber); border-bottom-color: var(--amber2); }
+
 .project-metric {
   display: inline-flex;
   align-items: baseline;
@@ -2350,7 +2366,7 @@ section {
         <span class="bento-num">01</span>
         <span class="bento-tag">Standout</span>
         <div class="bento-title">Protein Fitness Prediction</div>
-        <div class="bento-desc">FitPredict-ML · ESM-2 650M · Novel diagnostic on positional memorization. Publication-quality.</div>
+        <div class="bento-desc">premise · ESM-2 650M · Novel diagnostic on positional memorization. Under review.</div>
       </div>
 
       <div class="bento-card teal c-5 r-2">
@@ -2369,18 +2385,25 @@ section {
         <div class="bento-desc">Triple quantum dot ring · 4 novel contributions · First EP encirclement shown for electronic transport · Publishable</div>
       </div>
 
-      <div class="bento-card rose c-3 r-2">
-        <span class="bento-icon">ML</span>
+      <div class="bento-card teal c-4 r-2">
+        <span class="bento-icon">Systems</span>
         <span class="bento-num">04</span>
-        <span class="bento-tag">Course Project</span>
-        <div class="bento-title">GestureIQ</div>
-        <div class="bento-desc">sEMG gesture classification · 92.6% accuracy · Prosthetic control</div>
+        <span class="bento-tag">Standout</span>
+        <div class="bento-title">OMNIS</div>
+        <div class="bento-desc">Compliance evidence engine · Omniscience Index · built solo at SG iHACK · runs fully offline</div>
       </div>
 
-      <!-- Row 2 continues -->
+      <div class="bento-card rose c-3 r-2">
+        <span class="bento-icon">ML</span>
+        <span class="bento-num">05</span>
+        <span class="bento-tag">Solo</span>
+        <div class="bento-title">Myoglyph</div>
+        <div class="bento-desc">sEMG gesture classification · leak-free rebuild · prosthetic control</div>
+      </div>
+
       <div class="bento-card amber c-3 r-2">
         <span class="bento-icon">Adjudication</span>
-        <span class="bento-num">05</span>
+        <span class="bento-num">06</span>
         <span class="bento-tag">Paid IA</span>
         <div class="bento-title">Debate Adjudicator</div>
         <div class="bento-desc">IIT Madras · Oxford Schools · NLUO · NLSIU · NALSAR (33 rooms)</div>
@@ -2388,16 +2411,15 @@ section {
 
       <div class="bento-card teal c-3 r-2">
         <span class="bento-icon">Events</span>
-        <span class="bento-num">06</span>
+        <span class="bento-num">07</span>
         <span class="bento-tag">Clubhead</span>
         <div class="bento-title">TEDxPESU</div>
         <div class="bento-desc">Clubhead · 2 events produced · 200+ attendees · Speakers from IISc, L&amp;T, Forbes India</div>
       </div>
 
-      <!-- Row 3 -->
       <div class="bento-card rose c-3 r-2">
         <span class="bento-icon">Robotics</span>
-        <span class="bento-num">07</span>
+        <span class="bento-num">08</span>
         <span class="bento-tag">Intern</span>
         <div class="bento-title">Swarm Robotics</div>
         <div class="bento-desc">IEEE RAS internship · ROS 2 + Gazebo · Multi-bot waste collection</div>
@@ -2405,7 +2427,7 @@ section {
 
       <div class="bento-card amber c-3 r-2">
         <span class="bento-icon">Leadership</span>
-        <span class="bento-num">08</span>
+        <span class="bento-num">09</span>
         <span class="bento-tag">Clubhead</span>
         <div class="bento-title">IEEE RAS Secretary</div>
         <div class="bento-desc">100+ members · ReRO Hackathon · International reach · RoboFest 4.0 co-head</div>
@@ -2413,7 +2435,7 @@ section {
 
       <div class="bento-card teal c-3 r-2">
         <span class="bento-icon">Media</span>
-        <span class="bento-num">09</span>
+        <span class="bento-num">10</span>
         <span class="bento-tag">Clubhead</span>
         <div class="bento-title">MINERVA Media Club</div>
         <div class="bento-desc">Content strategy · Multimedia production · Entire JMC dept. works with the club</div>
@@ -2421,7 +2443,7 @@ section {
 
       <div class="bento-card rose c-3 r-2">
         <span class="bento-icon">Teaching</span>
-        <span class="bento-num">10</span>
+        <span class="bento-num">11</span>
         <span class="bento-tag">TA</span>
         <div class="bento-title">Teaching Assistant</div>
         <div class="bento-desc">Entrepreneurship course · 2nd year university-wide · Thousands of students · Set final exam</div>
@@ -2430,21 +2452,21 @@ section {
       <!-- Row 4 -->
       <div class="bento-card amber c-4 r-2">
         <span class="bento-icon">Civic Tech</span>
-        <span class="bento-num">11</span>
+        <span class="bento-num">12</span>
         <div class="bento-title">Bengaluru Flood Risk Model</div>
         <div class="bento-desc">Geospatial ML + weather prediction · Identifies flood risk zones by location · Hackathon project</div>
       </div>
 
       <div class="bento-card teal c-4 r-2">
         <span class="bento-icon">Embedded</span>
-        <span class="bento-num">12</span>
+        <span class="bento-num">13</span>
         <div class="bento-title">REN-CONSOLE</div>
         <div class="bento-desc">Arduino R4 · Pong + Snake · Gesture-controlled via ultrasonic sensors · WiFi scoreboard server</div>
       </div>
 
       <div class="bento-card rose c-4 r-2">
         <span class="bento-icon">Equity</span>
-        <span class="bento-num">13</span>
+        <span class="bento-num">14</span>
         <div class="bento-title">Equity Framework</div>
         <div class="bento-desc">Drafted PES Debate Society equity framework from global circuit research · Panel member since 2025</div>
       </div>
@@ -2463,66 +2485,68 @@ section {
 
     <div class="projects-layout reveal reveal-delay-2">
       <div class="project-list">
-        <div class="project-tab active" onclick="switchProject('fitpredict')">
+        <div class="project-tab active" onclick="switchProject('premise')">
           <div>
             <div class="project-tab-num">01</div>
           </div>
-          <div class="project-tab-name">FitPredict-ML<br><span style="color: var(--text3); font-weight: 400;">Protein Fitness Predictor</span></div>
+          <div class="project-tab-name">premise<br><span style="color: var(--text3); font-weight: 400;">Protein Fitness Predictor</span></div>
           <span class="project-tab-badge">⭐ Lead</span>
+        </div>
+        <div class="project-tab" onclick="switchProject('omnis')">
+          <div>
+            <div class="project-tab-num">02</div>
+          </div>
+          <div class="project-tab-name">OMNIS<br><span style="color: var(--text3); font-weight: 400;">Compliance Evidence Engine</span></div>
+          <span class="project-tab-badge">⭐ Solo</span>
         </div>
         <div class="project-tab" onclick="switchProject('capstone')">
           <div>
-            <div class="project-tab-num">02</div>
+            <div class="project-tab-num">03</div>
           </div>
           <div class="project-tab-name">Aerial Docking<br><span style="color: var(--text3); font-weight: 400;">Drone Payload Transfer</span></div>
           <span class="project-tab-badge">⭐ Lead</span>
         </div>
         <div class="project-tab" onclick="switchProject('quantum')">
           <div>
-            <div class="project-tab-num">03</div>
+            <div class="project-tab-num">04</div>
           </div>
           <div class="project-tab-name">Non-Hermitian Transport<br><span style="color: var(--text3); font-weight: 400;">Quantum Transport &amp; Logic</span></div>
           <span class="project-tab-badge">⭐ Solo</span>
         </div>
-        <div class="project-tab" onclick="switchProject('gestureiq')">
+        <div class="project-tab" onclick="switchProject('myoglyph')">
           <div>
-            <div class="project-tab-num">04</div>
+            <div class="project-tab-num">05</div>
           </div>
-          <div class="project-tab-name">GestureIQ<br><span style="color: var(--text3); font-weight: 400;">sEMG Classification</span></div>
+          <div class="project-tab-name">Myoglyph<br><span style="color: var(--text3); font-weight: 400;">sEMG Gesture Classification</span></div>
+          <span class="project-tab-badge">⭐ Solo</span>
         </div>
         <div class="project-tab" onclick="switchProject('flood')">
           <div>
-            <div class="project-tab-num">05</div>
+            <div class="project-tab-num">06</div>
           </div>
           <div class="project-tab-name">Flood Risk Model<br><span style="color: var(--text3); font-weight: 400;">Bengaluru Geospatial ML</span></div>
         </div>
         <div class="project-tab" onclick="switchProject('renconsole')">
           <div>
-            <div class="project-tab-num">06</div>
+            <div class="project-tab-num">07</div>
           </div>
           <div class="project-tab-name">REN-CONSOLE<br><span style="color: var(--text3); font-weight: 400;">Arduino Gesture Games</span></div>
         </div>
         <div class="project-tab" onclick="switchProject('swarm')">
           <div>
-            <div class="project-tab-num">07</div>
+            <div class="project-tab-num">08</div>
           </div>
           <div class="project-tab-name">Swarm Robotics<br><span style="color: var(--text3); font-weight: 400;">ROS 2 Internship</span></div>
-        </div>
-        <div class="project-tab" onclick="switchProject('quantum')">
-          <div>
-            <div class="project-tab-num">07</div>
-          </div>
-          <div class="project-tab-name">Non-Hermitian Transport<br><span style="color: var(--text3); font-weight: 400;">Quantum Transport &amp; Logic</span></div>
         </div>
       </div>
 
       <div class="project-content">
 
-        <!-- FitPredict -->
-        <div class="project-pane active" id="pane-fitpredict">
+        <!-- premise -->
+        <div class="project-pane active" id="pane-premise">
           <div class="project-label">Deep Learning · Computational Biology</div>
-          <div class="project-title">FitPredict-ML: Protein Fitness Predictor</div>
-          <p class="project-desc">A diagnostic study of positional memorization in supervised protein fitness predictors, with a validated remedy replicated across two unrelated proteins. Built with PyTorch, HuggingFace's ESM-2 650M foundation model, and BioPython.</p>
+          <div class="project-title">premise: Protein Fitness Predictor</div>
+          <p class="project-desc">A diagnostic study of positional memorization in supervised protein fitness predictors, with a validated remedy replicated across two unrelated proteins. Built with PyTorch, HuggingFace's ESM-2 650M foundation model, and BioPython. Private; under review for publication.</p>
           <div class="project-insight">
             <strong>Key finding:</strong> Mean-pool ESM-2 embeddings cause supervised models to memorize position-fitness mappings from training labels. Per-residue embedding at the mutation site eliminates this without sacrificing accuracy. Switching to per-residue embedding jumps Spearman ρ from 0.038 to 0.271 on MK01_HUMAN.
           </div>
@@ -2578,17 +2602,41 @@ section {
           </div>
         </div>
 
-        <!-- GestureIQ -->
-        <div class="project-pane" id="pane-gestureiq">
-          <div class="project-label">Machine Learning · Biomedical Signal Processing</div>
-          <div class="project-title">GestureIQ. sEMG Hand Gesture Classification</div>
-          <p class="project-desc">A full ML pipeline for classifying hand gestures from surface EMG signals, targeting prosthetic limb control. Built on NinaPro DB2 with 10 subjects, 6 gesture classes, 58,006 windows of 12-channel 2000Hz sEMG.</p>
+        <!-- OMNIS -->
+        <div class="project-pane" id="pane-omnis">
+          <div class="project-label">Systems · Applied AI · Full-Stack</div>
+          <div class="project-title">OMNIS: the partly omniscient auditor</div>
+          <p class="project-desc">A compliance evidence engine that parses security policies, links evidence to each requirement, tracks freshness, and reports one honest number — the Omniscience Index (0–100). Built solo for the Société Générale iHACK hackathon. Runs fully offline, no API key required.</p>
           <div class="project-insight">
-            <strong>Key insight:</strong> LinearSVC achieves macro-F1 ≈ 0.35. RBF kernel jumps to 0.73. EMG gesture classification is fundamentally non-linearly separable. The kernel trick is what makes SVM work here.
+            <strong>Key insight:</strong> The first thing it audited was the benchmark: a permutation test showed the provided “ground-truth” labels were noise (p = 0.86), so I built a synthetic bench where labels are true by construction and shipped the finding as a reproducible script.
           </div>
           <div style="margin-bottom: 24px;">
-            <div class="project-metric"><span class="metric-val">92.6%</span><span class="metric-label">KNN test accuracy</span></div>
-            <div class="project-metric"><span class="metric-val">0.760</span><span class="metric-label">Macro-F1 (KNN)</span></div>
+            <div class="project-metric"><span class="metric-val">92.4/100</span><span class="metric-label">Omniscience Index</span></div>
+            <div class="project-metric"><span class="metric-val">0.957 / 0.953</span><span class="metric-label">Detection precision / recall</span></div>
+            <div class="project-metric"><span class="metric-val">102</span><span class="metric-label">tests passing</span></div>
+          </div>
+          <div class="tech-stack">
+            <span class="tech-pill">Python</span>
+            <span class="tech-pill">FastAPI</span>
+            <span class="tech-pill">pandas</span>
+            <span class="tech-pill">pydantic</span>
+            <span class="tech-pill">fpdf2</span>
+            <span class="tech-pill">pytest</span>
+          </div>
+          <a class="project-link" href="https://github.com/ataylus/OMNIS" target="_blank" rel="noopener">View code →</a>
+        </div>
+
+        <!-- Myoglyph -->
+        <div class="project-pane" id="pane-myoglyph">
+          <div class="project-label">Machine Learning · Biomedical Signal Processing</div>
+          <div class="project-title">Myoglyph: sEMG Hand-Gesture Classification</div>
+          <p class="project-desc">A leak-free classical-ML pipeline classifying hand gestures from forearm surface-EMG for prosthetic control. NinaPro DB2 — 10 subjects, 6 gesture classes, 58,006 windows. Ships an interactive demo that runs on a fresh clone without the dataset.</p>
+          <div class="project-insight">
+            <strong>Key insight:</strong> Rebuilt from an earlier course version after finding a test-set leak that inflated the metrics; fixing it lowered KNN macro-F1 from an inflated 0.76 to an honest 0.69. A linear SVM reaches only ~0.39 macro-F1 while the RBF kernel lifts it to ~0.60 — the kernel trick earning its keep on non-linearly-separable EMG classes.
+          </div>
+          <div style="margin-bottom: 24px;">
+            <div class="project-metric"><span class="metric-val">88.2%</span><span class="metric-label">KNN test accuracy</span></div>
+            <div class="project-metric"><span class="metric-val">0.686</span><span class="metric-label">Macro-F1 (KNN)</span></div>
           </div>
           <div class="tech-stack">
             <span class="tech-pill">Scikit-learn</span>
@@ -2599,6 +2647,7 @@ section {
             <span class="tech-pill">SciPy</span>
             <span class="tech-pill">Pandas</span>
           </div>
+          <a class="project-link" href="https://github.com/ataylus/Myoglyph" target="_blank" rel="noopener">View code →</a>
         </div>
 
         <!-- Flood -->
@@ -2607,7 +2656,7 @@ section {
           <div class="project-title">Bengaluru Flood Risk Prediction Model</div>
           <p class="project-desc">A proof-of-concept civic-tech system built at Synapse Hackathon. A weather ML predictor for Bengaluru is overlaid with geospatial lakebed dataset to identify flood-risk zones. Users input their location and receive a real-time flood risk evaluation during heavy rainfall.</p>
           <div class="project-insight">
-            <strong>Design thinking:</strong> Built at the intersection of urban planning, data science, and public infrastructure. exactly the kind of cross-domain problem that needs generalists.
+            <strong>Design thinking:</strong> Built at the intersection of urban planning, data science, and public infrastructure — exactly the kind of cross-domain problem that needs generalists.
           </div>
           <div class="tech-stack">
             <span class="tech-pill">Scikit-learn</span>
@@ -2658,7 +2707,7 @@ section {
           <div class="project-title">Non-Hermitian Quantum Transport in Triple Quantum Dots</div>
           <p class="project-desc">A semester-long research project on time-domain chiral current in a PT-symmetric triple quantum dot ring. Four deliverables: literature survey, numerical reproduction, analytical synthesis, and a solo End Semester Assessment with 12 computational tasks. I built independent verification suites that caught a real sign-convention bug in the reference work.</p>
           <div class="project-insight">
-            <strong>Why it matters:</strong> I demonstrated dynamical exceptional-point encirclement with direction-dependent mode switching (chirality ratio close to 1.0), previously shown only in photonics. To my knowledge this is the first demonstration for mesoscopic electronic transport, which makes it genuinely publishable.
+            <strong>Why it matters:</strong> I demonstrated dynamical exceptional-point encirclement with direction-dependent mode switching (chirality ratio close to 1.0), previously shown only in photonics. To my knowledge this is the first demonstration for mesoscopic electronic transport, a result we're preparing for submission.
           </div>
           <div style="margin-bottom: 24px;">
             <div class="project-metric"><span class="metric-val">4</span><span class="metric-label">Novel contributions</span></div>
@@ -2730,7 +2779,7 @@ section {
 
       <div class="exp-card rose reveal reveal-delay-3">
         <div class="exp-meta">
-          <div class="exp-date">Jun. Jul 2024</div>
+          <div class="exp-date">Jun–Jul 2024</div>
           <div class="exp-org">IEEE RAS · Bengaluru</div>
           <div class="exp-type">Summer Intern</div>
         </div>
@@ -2746,7 +2795,7 @@ section {
 
       <div class="exp-card amber reveal reveal-delay-3">
         <div class="exp-meta">
-          <div class="exp-date">Jun. Jul 2024</div>
+          <div class="exp-date">Jun–Jul 2024</div>
           <div class="exp-org">RAPID Research Centre · PESU</div>
           <div class="exp-type">Summer Intern</div>
         </div>
@@ -3161,7 +3210,7 @@ section {
           <div class="edu-item">
             <div class="edu-year">Pre-2023</div>
             <div class="edu-institution">Ryan International School</div>
-            <div class="edu-degree">Class 10: 97% (ICSE) · Class 12: 85.5% (CBSE)</div>
+            <div class="edu-degree">Class 10: 97% (ICSE) · Class 12: 85.5% (PUC)</div>
             <p class="edu-desc">Mathematics 100/100. Computer Applications 100/100. Gold Medal, Brain-O-Brain Nationals (Abacus).</p>
           </div>
         </div>
@@ -3424,7 +3473,7 @@ function switchProject(id) {
   document.querySelectorAll('.project-pane').forEach(p => p.classList.remove('active'));
 
   const tabs = document.querySelectorAll('.project-tab');
-  const projects = ['fitpredict', 'capstone', 'quantum', 'gestureiq', 'flood', 'renconsole', 'swarm'];
+  const projects = ['premise', 'omnis', 'capstone', 'quantum', 'myoglyph', 'flood', 'renconsole', 'swarm'];
   const idx = projects.indexOf(id);
   if (tabs[idx]) tabs[idx].classList.add('active');
 
@@ -3711,6 +3760,5 @@ document.addEventListener('keydown', (e) => {
 
 </main>
 
-<!-- CLOUDFLARE ANALYTICS — paste script here -->
 </body>
 </html>
